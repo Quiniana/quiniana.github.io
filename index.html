@@ -1,7 +1,139 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <title>All Things K-Pop</title>
+    </head>
+    <style>
+      img {
+        display:flex;
+        margin:auto;
+        width: 1440px;
+        height: 900px;
+      }
+    </style>
+    <body>
+      
+        <div id ="navbar">
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="idols.html">Idols</a>
+            <a href="releases.html">Releases</a>
+        </div>
+        <p></p>
+        <a href="https://kprofiles.com/twice-members-profile/" target="_blank">
+            <h1 class="TWICE">Twice</h1>
+        </a>
+        <p>
+        </p>
+        <div class="slideshow-container">
+
+          <div class="Twice">
+            <img src="https://static.wikia.nocookie.net/kpop/images/4/44/TWICE_Strategy_group_concept_photo_2.png/revision/latest?cb=20241114135342" alt="Korean Girl Group TWICE" >
+            <div class="text">© Fandom</div>
+          </div>
+
+          <div class="Twice">
+            <img src="https://imgix.bustle.com/uploads/image/2022/8/25/7e4b684c-1f25-43c0-bac7-e238d1702f2a-twice1.JPG" alt="Korean Girl Group TWICE" >
+            <div class="text">© W Magazine</div>
+          </div>
+
+          <div class="Twice">
+            <img src="https://nolae.eu/cdn/shop/articles/dies-ist-die-story-einer-girlgroup-die-unsere-herzen-beruhrt-twice-975458.jpg?v=1634896390&width=1200" >
+            <div class="text">© Nolae</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+
+        <p>TWICE (트와이스) is a 9-member South Korean girl group under JYP Entertainment. <br>
+            The group consists of Jihyo, Nayeon, Jeongyeon, Momo, Sana, Mina, Dahyun, Chaeyoung, and Tzuyu. <br> 
+            The group was formed through the survival show SIXTEEN and debuted on October 20, 2015, with their first mini album, The Story Begins.</p>
+        <hr>
+
+        <a href="https://kprofiles.com/black-pink-members-profile/" target="_blank">
+            <h1 class="BLACKPINK">Blackpink</h1>
+        </a>
+        <p></p>
+             <div class="slideshow-container">
+              <div class="Blackpink">
+                <img src="https://www.billboard.com/wp-content/uploads/2022/07/blackpink-press-billboard-1548.png" alt="Korean Girl Group Blackpink" >
+                <div class="text">© Hindustan Times</div>
+              </div>
+    
+              <div class="Blackpink">
+                <img src="https://people.com/thmb/JeX3Zm0C8LpUeM12Oa3LzQS6snI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(764x229:766x231)/Blackpink-2023-members-01-9d67ffe25a474456b4be77adedb057b0.jpg" alt="Korean Girl Group TWICE" >
+                <div class="text">© Dimitrios Kambouris/Getty</div>
+              </div>
+    
+              <div class="Blackpink">
+                <img  src="https://www.rollingstone.com/wp-content/uploads/2022/05/R1364Blackpink-Opener.jpg" >
+                <div class="text">© Peter Ash Lee for Rolling Stone</div>
+              </div>
+    
+              <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+    
+        <p>BLACKPINK (블랙핑크) is a 4-member girl group under YG Entertainment. <br>
+            The group consists of Jisoo, Jennie, Rosé, and Lisa. They debuted on August 8th, 2016, with their first single album, Square One. <br> 
+            On October 23, 2018, BLACKPINK has officially signed with the U.S. label Interscope Records. 
+        </p>
+        <hr>
+
+        <a href="https://kprofiles.com/newjeans-members-profile/" target="_blank">
+            <h1 class="NewJeans">Newjeans</h1>
+        </a>
+        <p></p>
+         <div class="slideshow-container">
+              <div class="Newjeans">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/NewJeans_2023_MelonMusicAwards_composite.jpg" alt="Korean Girl Group Newjeans" >
+                <div class="text">© Wikipedia</div>
+              </div>
+
+              <div class="Newjeans">
+                <img src="https://wimg.heraldcorp.com/content/default/2024/06/20/20240620050641_0.jpg" alt="Korean Girl Group Newjeans" >
+                <div class="text">© NewJeans(Ador)</div>
+              </div>
+
+              <div class="Newjeans">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1591366280.jpg?c=original" alt="Korean Girl Group Newjeans" >
+                <div class="text">© Gary Miller/FilmMagic/Getty Images</div>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            </div>
+            <p>NewJeans (뉴진스) is a 5-member girl group formerly under ADOR and HYBE Labels. <br>
+            The members are Minji, Hanni, Danielle, Haerin, and Hyein. They released their debut single “Attention” on July 22, 2022. <br>
+            They officially debuted on August 1, 2022, with their first EP, New Jeans. </p>
+        <hr>
+        <script>
+          let slideIndex = [1,1,1];
+          let slideId = ["Twice", "Blackpink", "Newjeans"]
+          showSlides(1, 0);
+          showSlides(1, 1);
+          showSlides(1, 2);
+
+          function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+          }
+
+          function showSlides(n, no) {
+            let i;
+            let x = document.getElementsByClassName(slideId[no]);
+            if (n > x.length) {slideIndex[no] = 1}
+            if (n < 1) {slideIndex[no] = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            x[slideIndex[no]-1].style.display = "block";
+          }
+        </script>
+
+    </body>
 </html>
