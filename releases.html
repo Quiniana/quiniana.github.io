@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Releases | It's A Girls World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images\favicon.ico">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">It's A Girls World</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link active" href="releases.html">Releases</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Idols
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="yves.html">Yves</a></li>
+                  <li><a class="dropdown-item" href="chungha.html">Chung-ha</a></li>
+                  <li><a class="dropdown-item" href="iu.html">IU</a></li>
+                </ul>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <div class="video-slideshow">
+
+        <div class="MusicVideos">
+          <iframe width="100%" height="900" src="https://www.youtube.com/embed/aFrQIJ5cbRc?si=nSPgNnvQWpkW4Vdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© JYP Entertainment</div>
+        </div>
+
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/jWQx2f-CErU?si=wf2GS74INc3RC6pR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© SM Entertainment</div>
+        </div>
+
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/TamDOXponnM?si=rHpItRrF-ma1HVR-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© JYP Entertainment</div>
+        </div>
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/aHTI0SXGVS0?si=af4-nIVhKWuoyUlq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© XGALX</div>
+        </div>
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/r9AEGPB6qIU?si=VoNaviqLVmh_Za80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© Source Music</div>
+        </div>
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/S-VLzICd2FE?si=pAvaE3WXW0bxRqYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© SM Entertainment</div>
+        </div>
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/toF4ee3n-vo?si=d5EXf2JgMAUBy1_v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© Genie Official</div>
+        </div>
+        <div class="MusicVideos">
+            <iframe width="100%" height="900" src="https://www.youtube.com/embed/kxUA2wwYiME?si=JvYlGg31PmJwovCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="text">© SM Entertainment</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+      <script>
+        let slideIndex = [1];
+        let slideId = ["MusicVideos"]
+        showSlides(1, 0);
+
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+          let i;
+          let x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex[no]-1].style.display = "block";
+        }
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
